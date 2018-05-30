@@ -1,0 +1,42 @@
+$colors-list: #4285f4 #db4437 #f4b400 #0f9d58;
+
+.loader {
+	text-align: center;
+	span {
+		display: inline-block;
+		margin-top: 10px;
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+		&:not(:first-child) { margin-left: 10px; }
+	}
+	@each $current-color in $colors-list {
+		$i: index($colors-list, $current-color);
+		$t: $i * -0.25;
+		span:nth-child(#{$i}) {
+			background: $current-color;
+			animation: move 1s ease-in-out (#{$t}s) infinite alternate;
+		}
+	}
+}
+
+@keyframes move {
+	from { transform: translateY(-10px); }
+	to { transform: translateY(5px); }
+}
+
+
+.loader {
+	span {
+		transform: scale(100);
+	}
+}
+
+body, html {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	vertical-align: middle;
+	justify-content: center;
+	padding-top: 50px;
+}

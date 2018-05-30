@@ -1,0 +1,11 @@
+<script>
+function sendMail()
+{
+  var link = "mailto:me@example.com"+
+             "?cc=CCaddress@example.com"+
+             "&subject=" + escape("This is subject")+
+             "&body=" + escape("This is body");
+  window.location.href = link;
+}
+</script>
+<button onclick="sendMail"> CLICK </button>

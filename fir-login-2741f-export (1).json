@@ -1,0 +1,189 @@
+{
+  "Buyer" : {
+    "27-02-18" : {
+      "_grand" : 100000,
+      "praveen" : {
+        "copper" : 10,
+        "paper" : 5,
+        "steel" : 15
+      },
+      "ravi" : {
+        "aluminium" : 10,
+        "brass" : 20,
+        "iron" : 5,
+        "plastic" : 15
+      }
+    },
+    "28-02-18" : {
+      "_grand" : 20000,
+      "madhu" : {
+        "iron" : 10,
+        "paper" : 5,
+        "steel" : 20
+      },
+      "sampath" : {
+        "brass" : 10,
+        "iron" : 20
+      }
+    }
+  },
+  "Seller" : {
+    "-L6LgPROEkIwU6KK6gGo" : {
+      "bname" : "ravi",
+      "image" : "fsjkf.sdfsdf",
+      "kgs" : "1.2",
+      "name" : "redmi note 4",
+      "price" : "9000"
+    },
+    "-L6LgWWQbX5sHldrxaaY" : {
+      "bname" : "praveen",
+      "image" : "fsjkf.sdfsdf",
+      "kgs" : "1.2",
+      "name" : "redmi note 3",
+      "price" : "8000"
+    },
+    "-L6LgfEemDmV3kFN13Lj" : {
+      "bname" : "Ganesh",
+      "image" : "hjhk.522",
+      "kgs" : "0.5",
+      "name" : "onida",
+      "price" : "500"
+    },
+    "-L6MWMcFbSJkNf9uTCYU" : {
+      "bname" : "RAVI KISHORE",
+      "image" : "JKL.JPG",
+      "kgs" : "25",
+      "name" : "MEDI WASTE",
+      "price" : "450"
+    },
+    "27-1-2018" : [ {
+      "ravi" : {
+        "bname" : "ravi",
+        "image" : "fsjkf.sdfsdf",
+        "kgs" : "1.2",
+        "name" : "redmi note 4",
+        "price" : "9000"
+      }
+    }, {
+      "praveen" : {
+        "bname" : "praveen",
+        "image" : "fsjkf.sdfsdf",
+        "kgs" : "1.2",
+        "name" : "redmi note 3",
+        "price" : "8000"
+      }
+    }, {
+      "Ganesh" : {
+        "bname" : "Ganesh",
+        "image" : "hjhk.522",
+        "kgs" : "0.5",
+        "name" : "onida",
+        "price" : "500"
+      }
+    }, {
+      "ravi" : {
+        "bname" : "ravi",
+        "image" : "fsjkf.sdfsdf",
+        "kgs" : "1.2",
+        "name" : "redmi note 4",
+        "price" : "9000"
+      }
+    }, {
+      "praveen" : {
+        "bname" : "praveen",
+        "image" : "fsjkf.sdfsdf",
+        "kgs" : "1.2",
+        "name" : "redmi note 3",
+        "price" : "8000"
+      }
+    }, {
+      "Ganesh" : {
+        "bname" : "Ganesh",
+        "image" : "hjhk.522",
+        "kgs" : "0.5",
+        "name" : "onida",
+        "price" : "500"
+      }
+    }, {
+      "RAVI KISHORE" : {
+        "bname" : "RAVI KISHORE",
+        "image" : "JKL.JPG",
+        "kgs" : "25",
+        "name" : "MEDI WASTE",
+        "price" : "450"
+      }
+    }, {
+      "undefined" : [ {
+        "ravi" : {
+          "bname" : "ravi",
+          "image" : "fsjkf.sdfsdf",
+          "kgs" : "1.2",
+          "name" : "redmi note 4",
+          "price" : "9000"
+        }
+      }, {
+        "praveen" : {
+          "bname" : "praveen",
+          "image" : "fsjkf.sdfsdf",
+          "kgs" : "1.2",
+          "name" : "redmi note 3",
+          "price" : "8000"
+        }
+      }, {
+        "Ganesh" : {
+          "bname" : "Ganesh",
+          "image" : "hjhk.522",
+          "kgs" : "0.5",
+          "name" : "onida",
+          "price" : "500"
+        }
+      } ]
+    } ]
+  },
+  "cart" : {
+    "-L6N0s0VMB4AxomwQ_Aq" : {
+      "-L6N0mQBYp_xG77noiGv" : {
+        "KGS" : "250a",
+        "NAME" : "aluminium",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfA25yQD0S2hHG55ZtLfEcbMZKbbdy8e5WJ7kFTwPibnOZ5eQ",
+        "price" : "120"
+      }
+    },
+    "-L6N2w1-1rauxCHH7-YH" : {
+      "-L6N0mQBYp_xG77noiGv" : {
+        "KGS" : "250a",
+        "NAME" : "aluminium",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfA25yQD0S2hHG55ZtLfEcbMZKbbdy8e5WJ7kFTwPibnOZ5eQ",
+        "price" : "120"
+      }
+    }
+  },
+  "test" : {
+    "items" : {
+      "-L6N0mQBYp_xG77noiGv" : {
+        "KGS" : "250a",
+        "NAME" : "aluminium",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfA25yQD0S2hHG55ZtLfEcbMZKbbdy8e5WJ7kFTwPibnOZ5eQ",
+        "price" : "120"
+      },
+      "-L6N2NFDrpYQAtvAlpfV" : {
+        "KGS" : "12",
+        "NAME" : "RUBBER",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJGpBsQASOyAISTP3Cq5zWoU4Ywy5okZwwA_QgSeHQvomO4OGu",
+        "price" : "250"
+      },
+      "-L6N2U-wCwMCRgpmHRhI" : {
+        "KGS" : "12",
+        "NAME" : "PAPER",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Y1mNjsh3spaJ9kWVBSTvXgidhlxofGTzbDxSxmi9bSdWT-6KFA",
+        "price" : "50"
+      },
+      "-L6N2hknrYqg42kZvTT_" : {
+        "KGS" : "250",
+        "NAME" : "COPPER",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT__ypNZyX17hcoVCw45Z3NlsKhWv_LG3409HbUsz6Y1kuDufrnnw",
+        "price" : "450"
+      }
+    }
+  }
+}

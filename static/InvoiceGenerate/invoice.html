@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Example 1</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+  </head>
+  <body>
+  <div id="HTMLtoPDF">
+					<header class="clearfix">
+					  <div id="logo">
+						<img src="logo.png">
+					  </div>
+					  <h1>INVOICE FOR YOUR SCRAP</h1>
+
+					  <div id="company" class="clearfix" >
+						<div>WEIGH & PAY</div>
+						<div>VISAKHAPATNAM,<br /> ANDHRAPRADESH</div>
+						<div> 9000499041,7730026745</div>
+						<div><a href="mailto:company@example.com">mente.praveen@gmail.com</a></div>
+						<div><a href="mailto:company@example.com">bodharavikishore@gmail.com</a></div>
+						<div><a href="mailto:company@example.com">manikyam muthayal@gmail.com</a></div>
+					  </div>
+					  <div id="project">
+						<div> PROJECT : SCRAP BUSSINESS MANAGEMENT</div>
+						<div>CLIENT:MIRACLE</div>
+						<div>ADDRESS:BHOGAPUREAM</div>
+						<div>EMAIL:<a href="mailto:john@example.com">www.edulokam.com</a></div>
+						<div>DATE :feb 25, 2018</div>
+						<!-- <div><span>DUE DATE</span> September 17, 2015</div> -->
+					  </div>
+					</header>
+					<main>
+					  <table class="table table-striped" >
+						<thead>
+						  <tr>
+							<th class="service">SCRAP</th>
+							<th class="desc">PRICES</th>
+							<th>KGS</th>
+							<th>TOTAL</th>
+						  </tr>
+						</thead>
+						
+						
+						  <tbody id="t_body">
+						  <tr>
+					  
+							  <td>  </td>
+							  <td>  </td>
+							  <td>  </td>
+							  <td>  </td>
+						  </tr>
+						 </tbody>
+					  </table>
+					  <div id="notices">
+						<div>NOTICE:</div>
+						<div class="notice">A finance charge of 1.5% will be made on unpaid balances after 30 days.</div>
+					  </div>
+					</main>
+					<footer>
+					  Invoice was created on a computer and is valid without the signature and seal.
+					</footer>
+</div>	
+	<a href="#" onclick="HTMLtoPDF()">Download PDF</a>
+ 
+ <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBQugW-TN3h-gz_DBBUAj00RKAuwN_j2rw",
+    authDomain: "fir-login-2741f.firebaseapp.com",
+    databaseURL: "https://fir-login-2741f.firebaseio.com",
+    projectId: "fir-login-2741f",
+    storageBucket: "fir-login-2741f.appspot.com",
+    messagingSenderId: "96623884772"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src='js/cart.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jspdf.js"></script>
+<script src="js/jquery-2.1.3.js"></script>
+<script src="js/pdfFromHTML.js"></script>
+</body>
+</html>

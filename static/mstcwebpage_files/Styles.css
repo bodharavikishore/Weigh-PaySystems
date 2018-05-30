@@ -1,0 +1,400 @@
+/* Default CSS Stylesheet for a new Web Application project */
+ BODY
+{    
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;   
+} 
+.TBLBGCLR {
+	background-color: #ffffff;
+}
+.OTHPARA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-align:justify;
+	color: #003366;
+	top: auto;
+	margin: 0px;
+	padding: 2px;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-align:justify;
+	color: #003366;
+	top: auto;
+	margin: 0px;
+	padding: 2px;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+a:link, a:visited {
+	color: #003366;
+	text-decoration: none;
+	font-weight: normal;
+} 
+a:active, a:hover {
+	color: #6666CC;
+	text-decoration: none;
+}
+PANEL
+{
+	border-left:medium none solid; border-right:medium none solid; border-top:medium none border-style; border-bottom:medium none border-style; background-color: red;
+	
+}
+LBStyle
+{
+
+	border-style: None; 
+	FONT-SIZE: 10px; 
+	COLOR: #003399; 
+	FONT-FAMILY: Verdana, Arial;	
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+		background-color: green;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	background-color: green;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+	
+/*TD	{	
+	vertical-align:baseline;
+	font-size:	8pt;
+	font-weight:	normal;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	}	*/
+
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+/*IMG 	{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}*/
+.DIVCol {
+	background-color:#dcdcdc;
+	border-color:#3a6ea5; 
+	border-width:1px;
+	
+}
+.HeaderColor
+{
+	background-color:#3a6ea5;
+}	
+
+.inputGreyBlue {
+	FONT-SIZE: 10px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial; 
+}
+
+.inputGreyBlueAlign {
+	FONT-SIZE: 10px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial; 
+	text-align: right; 
+}
+
+
+.inputGreyBlueButton {
+	FONT-SIZE: 10px;
+	font-weight:bold ;
+	COLOR: #2f4f4f; 
+	FONT-FAMILY: Verdana, Arial; 
+/*	background-color:#dcdcdc; */
+	border-width:1px;
+	border-style:solid;
+	height:24px;
+	width:61px;
+	list-style-type:decimal;       
+}
+
+.ADD_PANEL
+{
+	background-color: Whitesmoke;
+}
+.SEARCH_PANEL
+{
+	background-color: Whitesmoke;
+}
+
+.GRID_GEN
+{
+	font-size:10pt;
+	font-family: Verdana;
+}
+.GRID_HEAD
+{
+	background-color:#e75110;
+	color:#F7F7F7;
+	border-style:solid;
+	border-color:Navy;
+	border-width:thick ;
+	font-size:8pt;
+	font-family: Verdana;
+	font-weight:bold;
+	position:relative;  
+	
+	top:expression(this.offsetParent.scrollTop-4); 	
+  	z-index: 10;
+}
+
+
+
+.FreezingCol 
+{ 
+   LEFT: expression(document.getElementById("DIV1").scrollLeft-4);
+    
+   POSITION: relative; 
+   z-index: 1; 
+}
+
+
+.GRID_ITEM
+{
+	background-color:#ffffff;
+	border: 0px; 
+	FONT-SIZE: 10px;  
+	FONT-FAMILY: Verdana, Arial;
+    behavior: url(../script/rollover.htc); 
+}
+.GRID_ALTER
+{
+	background-color:#f5f5f5;
+	FONT-SIZE: 10px;  
+	FONT-FAMILY: Verdana, Arial;
+	border: 0px; 
+    behavior: url(../script/rollover.htc); 
+
+}
+.GRID_SELECT
+{
+	font-weight:bold;
+	color:#F7F7F7;
+	background-color:#738A9C;
+}
+.GRID_PAGER
+{
+	background-color:#3a6ea5;
+	color:White;
+ 
+}
+.CONTROL_STYLE
+ {
+	FONT-SIZE: 10px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial; 
+}
+
+.BUTTON_STYLE
+ {
+	FONT-SIZE: 10px;  
+	font-weight:bold ;
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial; 
+	background-color:#dcdcdc;
+	border-width:1px;
+	border-style:solid;
+	height:24px;
+	width:61px;  
+	
+}
+.BROWSE_STYLE
+ {
+	FONT-SIZE: 10px;
+	COLOR: #3a6ea5; 
+	FONT-FAMILY: Verdana, Arial; 
+	background-color:#dcdcdc;
+	border-width:1px;
+	border-style:solid;
+	height:24px;
+	width:61px;  
+	
+}
+.Head
+{
+	FONT-SIZE: 12px;
+	font-weight:bold ;
+	COLOR: #3a6ea5; 
+	FONT-FAMILY: Verdana, Arial;
+}
+
+.Menu
+{
+	FONT-SIZE: 10px;
+	font-weight:bold ;
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Arial;
+}
+
+.HeaderButton 
+{ 
+background-color: white; 
+border: 0px; 
+behavior: url(../script/rollover.htc); 
+} 
+.AltenateRowColor
+{
+	background-color:#f5f5f5;
+	FONT-SIZE: 10px;  
+	FONT-FAMILY: Verdana, Arial; 
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}	
